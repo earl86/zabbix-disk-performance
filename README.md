@@ -1,5 +1,9 @@
 zabbix-disk-performance
 =======================
+test pass for python 3.4
+
+pip3 install argparse
+pip3 install py-zabbix
 
 Zabbix template for collecting IO statistics
 
