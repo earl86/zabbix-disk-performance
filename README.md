@@ -2,13 +2,13 @@ zabbix-disk-performance
 =======================
 test pass for python 3.4
 
-pip3 install argparse
+pip3 install argparse 
 pip3 install py-zabbix
 
 test pass for zabbix 2.4
 
-sysstat version:sysstat-9.0.4-33.el6_9.1.x86_64
-collect info for : iostat -y -x 2 1
+sysstat version:sysstat-9.0.4-33.el6_9.1.x86_64 
+collect info for : iostat -y -x 2 1 
 Linux 2.6.32-431.el6.x86_64 ()  03/10/2020      _x86_64_        (48 CPU)
 
 avg-cpu:  %user   %nice %system %iowait  %steal   %idle
@@ -44,7 +44,7 @@ md0               0.00     0.00    0.00    0.50     0.00     4.00     8.00     0
 md2               0.00     0.00    0.00  734.00     0.00 186740.00   254.41     0.00    0.00    0.00    0.00   0.00   0.00
 md1               0.00     0.00  567.50 1281.50  7608.00 24792.00    17.52     0.00    0.00    0.00    0.00   0.00   0.00
 
-collect info for : sar -d -p 3 1
+collect info for : sar -d -p 3 1 
 
 Linux 2.6.32-431.el6.x86_64 ()  03/10/2020      _x86_64_        (48 CPU)
 
