@@ -5,6 +5,8 @@ test pass for python 3.4
 pip3 install argparse
 pip3 install py-zabbix
 
+test pass for zabbix 2.4
+
 Zabbix template for collecting IO statistics
 
 With this template you can collect different disk statistics.
