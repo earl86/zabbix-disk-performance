@@ -8,7 +8,9 @@ pip3 install py-zabbix
 test pass for zabbix 2.4
 
 sysstat version:sysstat-9.0.4-33.el6_9.1.x86_64 
+
 collect info for : iostat -y -x 2 1 
+
 Linux 2.6.32-431.el6.x86_64 ()  03/10/2020      _x86_64_        (48 CPU)
 
 avg-cpu:  %user   %nice %system %iowait  %steal   %idle
