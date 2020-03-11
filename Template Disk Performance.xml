@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2020-03-11T04:08:51Z</date>
+    <date>2020-03-11T04:50:15Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -1803,7 +1803,7 @@ This is the total number of writes completed successfully.</description>
                             </graph_items>
                         </graph_prototype>
                         <graph_prototype>
-                            <name>Disk {#DEVICENAME} - sar-d-p_tps_await</name>
+                            <name>Disk {#DEVICENAME} - sar-d-p_tps_await_util</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -1842,6 +1842,18 @@ This is the total number of writes completed successfully.</description>
                                     <item>
                                         <host>Template Disk Performance</host>
                                         <key>custom.vfs.dev.sar-d-p.await[{#DEVICENAME}]</key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>2</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>00EE00</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template Disk Performance</host>
+                                        <key>custom.vfs.dev.sar-d-p.util[{#DEVICENAME}]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
