@@ -7,6 +7,7 @@ pip3 install py-zabbix
 
 test pass for zabbix 2.4
 
+sysstat version:sysstat-9.0.4-33.el6_9.1.x86_64
 collect info for : iostat -y -x 2 1
 Linux 2.6.32-431.el6.x86_64 ()  03/10/2020      _x86_64_        (48 CPU)
 
@@ -44,6 +45,7 @@ md2               0.00     0.00    0.00  734.00     0.00 186740.00   254.41     
 md1               0.00     0.00  567.50 1281.50  7608.00 24792.00    17.52     0.00    0.00    0.00    0.00   0.00   0.00
 
 collect info for : sar -d -p 3 1
+
 Linux 2.6.32-431.el6.x86_64 ()  03/10/2020      _x86_64_        (48 CPU)
 
 09:25:30 PM       DEV       tps  rd_sec/s  wr_sec/s  avgrq-sz  avgqu-sz     await     svctm     %util
