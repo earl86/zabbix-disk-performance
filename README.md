@@ -15,9 +15,11 @@ collect info for : iostat -y -x 2 1
 Linux 2.6.32-431.el6.x86_64 ()  03/10/2020      _x86_64_        (48 CPU)
 
 avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+
           16.07    0.00    3.70    2.15    0.00   78.08
 
 Device:         rrqm/s   wrqm/s     r/s     w/s   rsec/s   wsec/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
+
 sdb               0.00     0.00    0.00    2.00     0.00     6.50     3.25     0.01    5.75    0.00    5.75   5.75   1.15
 
 
@@ -26,10 +28,12 @@ collect info for : sar -d -p 3 1
 Linux 2.6.32-431.el6.x86_64 ()  03/10/2020      _x86_64_        (48 CPU)
 
 09:25:30 PM       DEV       tps  rd_sec/s  wr_sec/s  avgrq-sz  avgqu-sz     await     svctm     %util
+
 09:25:33 PM       sdb      7.46      0.00     33.90      4.55      0.05      6.64      5.50      4.10
 
 
 Average:          DEV       tps  rd_sec/s  wr_sec/s  avgrq-sz  avgqu-sz     await     svctm     %util
+
 Average:          sdb      7.46      0.00     33.90      4.55      0.05      6.64      5.50      4.10
 
 
