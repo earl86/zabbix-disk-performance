@@ -1,6 +1,7 @@
 zabbix-disk-performance
 =======================
 test pass for python 3.4
+
 test pass for zabbix 2.4
 
 Need:
@@ -101,4 +102,9 @@ To test that everything work use `zabbix_get` (from some time this is in it's ow
 zabbix_get -s 127.0.0.1 -k "custom.vfs.discover_disks"
 # view statistics for 'sda' disk
 zabbix_get -s 127.0.0.1 -k "custom.vfs.dev.write.sectors[sda]"
+# view statistics for iostat or sar info
+zabbix_get -s Your Host name's Agent interfaces(IP address) -k "epmmm.get.iostat.info[Your Host name in zabbix,not Visible name.]"
+zabbix_get -s 127.0.0.1 -k "epmmm.get.sar-d-p.info[myhost]"
+zabbix_get -s 127.0.0.1 -k "epmmm.get.iostat.info[myhost]"
+
 ```
