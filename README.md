@@ -54,7 +54,7 @@ With this template you can collect different disk statistics.
 
 Installation
 ------------
-To install, copy `userparameter_diskstats.conf` to `/etc/zabbix/zabbix_agentd.d/userparameter_diskstats.conf` and `lld-disks.py` to `/usr/local/bin/lld-disks.py`.
+To install, copy `userparameter_diskstats.conf` to `/etc/zabbix/zabbix_agentd.d/userparameter_diskstats.conf` and `lld-disks.py` to `/usr/local/zabbix-agent/scripts/lld-disks.py`.
 Do not forget to mark it executable.
 ```bash
 # diskstats user parameters config
