@@ -1,17 +1,22 @@
 zabbix-disk-performance
 =======================
 test pass for python 3.4
+test pass for zabbix 2.4
+
+Need:
+------
+python 3+
 
 pip3 install argparse 
 
 pip3 install py-zabbix
 
-test pass for zabbix 2.4
+sysstat version:
 
-sysstat version:sysstat-9.0.4-33.el6_9.1.x86_64 
+sysstat-9.0.4-33.el6_9.1.x86_64 
 
 collect info for : iostat -y -x 2 1 
-
+------
 Linux 2.6.32-431.el6.x86_64 ()  03/10/2020      _x86_64_        (48 CPU)
 
 avg-cpu:  %user   %nice %system %iowait  %steal   %idle
@@ -24,7 +29,7 @@ sdb               0.00     0.00    0.00    2.00     0.00     6.50     3.25     0
 
 
 collect info for : sar -d -p 3 1 
-
+------
 Linux 2.6.32-431.el6.x86_64 ()  03/10/2020      _x86_64_        (48 CPU)
 
 09:25:30 PM       DEV       tps  rd_sec/s  wr_sec/s  avgrq-sz  avgqu-sz     await     svctm     %util
@@ -38,7 +43,7 @@ Average:          sdb      7.46      0.00     33.90      4.55      0.05      6.6
 
 
 Zabbix template for collecting IO statistics
-
+------
 With this template you can collect different disk statistics.
 
 ![Bytes/Sec](https://github.com/grundic/zabbix-disk-performance/blob/master/images/sda_bytes_second.png?raw=true=250x)
