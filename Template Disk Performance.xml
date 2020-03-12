@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2020-03-11T04:50:15Z</date>
+    <date>2020-03-12T02:45:48Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -11,7 +11,10 @@
         <template>
             <template>Template Disk Performance</template>
             <name>Template Disk Performance</name>
-            <description/>
+            <description>need python version 3+&#13;
+need sysstat-9.0.4-33.el6_9.1.x86_64 +&#13;
+pip3 install argparse&#13;
+pip3 install py-zabbix</description>
             <groups>
                 <group>
                     <name>Templates</name>
