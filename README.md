@@ -1,5 +1,7 @@
 zabbix-disk-performance
 =======================
+Thanks for https://github.com/grundic/zabbix-disk-performance
+
 test pass for python 3.4
 
 test pass for zabbix 2.4
