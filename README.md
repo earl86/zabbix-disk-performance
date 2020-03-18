@@ -10,6 +10,8 @@ Need:
 ------
 python 3+
 
+pip3 install mysqlclient
+
 pip3 install argparse 
 
 pip3 install py-zabbix
